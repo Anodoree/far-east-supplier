@@ -39,17 +39,17 @@
       <div class="service__inner">
         <div class="service__item">
           <img class="service__img" src="img/service-1.svg" alt="">
-          <h2 class="title2">Поиск производителей по товару</h2>
+          <h2 class="service__title2 title2">Поиск производителей по товару</h2>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p>
         </div>
         <div class="service__item">
           <img class="service__img" src="img/service-2.svg" alt="">
-          <h2 class="title2">Поиск конкретного производителя</h2>
+          <h2 class="service__title2 title2">Поиск конкретного производителя</h2>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p>
         </div>
         <div class="service__item">
           <img class="service__img" src="img/service-3.svg" alt="">
-          <h2 class="title2">Доставка образцов товаров</h2>
+          <h2 class="service__title2 title2">Доставка образцов товаров</h2>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p>
         </div>
       </div>
@@ -61,28 +61,30 @@
       <div class="debriefing__inner">
         <div class="debriefing__content">
           <h2 class="title">В какой сфере вы работаете?</h2>
-          <p class="text">Мы проводим опрос среди пользователей сайта, чтобы предоставить Вам информацию соответствующую сфере Вашей деятельности.</p>
-          <div class="debriefing__option">
-            <input class="debriefing__option-input" id="fabricator" type="checkbox" name="who_is">
-            <label for="fabricator" class="title2">Я работаю на произвостве</label>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="debriefing__option">
-            <input class="debriefing__option-input" id="shipper" type="checkbox" name="who_is">
-            <label for="shipper" class="title2">Я поставляю товары</label>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="debriefing__option">
-            <input class="debriefing__option-input" id="pickup" type="checkbox" name="who_is">
-            <label for="pickup" class="title2">Я помогаю подобрать оборудование</label>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+          <p class="debriefing__text text">Мы проводим опрос среди пользователей сайта, чтобы предоставить Вам информацию соответствующую сфере Вашей деятельности.</p>
+          <form class="debriefing__form" action="#">
+            <label class="debriefing__option">
+              <input class="debriefing__option-input" type="radio" name="who_is">
+              <h3 class="debriefing__title2 title2">Я работаю на произвостве</h3>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </label>
+            <label class="debriefing__option debriefing__option--active">
+              <input class="debriefing__option-input" type="radio" name="who_is" checked>
+              <h3 class="debriefing__title2 debriefing__title2--active title2">Я поставляю товары</h3>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </label>
+            <label class="debriefing__option">
+              <input class="debriefing__option-input" type="radio" name="who_is">
+              <h3 class="debriefing__title2 title2">Я помогаю подобрать оборудование</h3>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </label>
+          </form>
         </div>
         <div class="debriefing__box">
           <div class="debriefing__result">
-            <h3 class="title2">Проголосовало</h3>
-            <p class="text">
-              <span class="debriefing__result-number">1107</span> пользователей
+            <h3 class="debriefing__result-title2 title2">Проголосовало:</h3>
+            <p class="debriefing__result-text text">
+              <span class="debriefing__result-number">1&nbsp;107</span> пользователей
             </p>
           </div>
         </div>
@@ -92,9 +94,9 @@
 
   <section class="reason">
     <div class="reason__header">
-      <div class="reason__title-box">
-        <div class="wrapper">
-          <h2 class="title title--lite">Почему с нами выгоднее</h2>
+      <div class="wrapper">
+        <div class="reason__header-inner">
+          <h2 class="reason__title title title--lite">Почему с нами выгоднее?</h2>
         </div>
       </div>
     </div>
